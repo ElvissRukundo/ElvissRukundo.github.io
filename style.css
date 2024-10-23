@@ -89,8 +89,8 @@ section {
     margin: 0 10px;
     color: white;
     transition: color 0.3s;
-    font-size: xx-large;
-    padding: 7.5px;
+    font-size: large;
+    padding: 5px;
 }
 
 .contact i:hover {
