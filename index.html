@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <style>
         body {
+            font-size: 16px;
             background-color: #000;
             font-family: "Poppins", sans-serif;
             margin: 0;
             padding: 0;
             color: #fff;
+        }
+
+        a {
+            text-decoration: none;
         }
 
         header {
@@ -23,7 +28,6 @@
 
         .header-content h1 {
             margin: 0;
-            font-size: 2rem;
         }
 
         nav {
@@ -60,7 +64,7 @@
 
         #intro {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             height: 100vh;
         }
@@ -78,12 +82,10 @@
         }
 
         #intro h1 {
-            font-size: 3rem;
             margin: 0;
         }
 
         #intro h3 {
-            font-size: 1.5rem;
             margin: 10px 0;
         }
 
@@ -99,7 +101,7 @@
         }
 
         .project-btn:hover {
-            background-color: #000;
+            background-color: #333;
             color: #fff;
         }
 
@@ -135,9 +137,9 @@
 
         .skill i,
         .language i {
-            font-size: 3rem;
             color: #fff;
             margin-bottom: 10px;
+            font-size: 3rem;
         }
 
         .project img {
@@ -147,6 +149,24 @@
 
         .project img:hover {
             transform: scale(1.05);
+        }
+
+        .view_project {
+            font-family: "Poppins", sans-serif;
+            text-transform: uppercase;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            font-weight: 600;
+            transition: background 0.3s;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .view_project:hover {
+            background-color: #333;
+            color: #fff;
         }
 
         #contact {
@@ -177,7 +197,6 @@
             margin: 10px 0;
             border: none;
             border-bottom: 1px solid #fff;
-            font-size: 1rem;
             outline: none;
         }
 
@@ -201,8 +220,8 @@
         }
 
         #contact-form button:hover {
-            background-color: #fff;
-            color: #000;
+            background-color: #333;
+            color: #fff;
         }
 
         footer {
@@ -217,7 +236,6 @@
             font-size: small;
             margin: 0 10px;
             color: white;
-            font-size: 1.5rem;
             transition: color 0.3s;
         }
 
@@ -226,6 +244,10 @@
         }
 
         @media (max-width: 991.98px) {
+            body {
+                font-size: 12px;
+            }
+
             #intro {
                 flex-direction: column;
                 height: auto;
@@ -237,14 +259,6 @@
 
             #intro .image {
                 display: none;
-            }
-
-            #intro h1 {
-                font-size: 2.5rem;
-            }
-
-            #intro h3 {
-                font-size: 1.2rem;
             }
 
             .nav-links {
@@ -293,7 +307,7 @@
             <a href="#projects" class="project-btn">View My Projects</a>
         </div>
         <div class="image">
-            <img src="elvo.jpg" alt="Profile Picture" />
+            <img src="img/elvo.jpg" alt="Profile Picture" />
         </div>
     </section>
 
@@ -358,14 +372,30 @@
         <h2>PROJECTS</h2>
         <div class="projects-grid">
             <div class="project">
-                <img src="project1.jpg" alt="Project 1" />
+                <img src="img/projects/vote/landing_page.png" alt="Project 1" />
                 <div class="project-info">
-                    <h3>Project Title 1</h3>
+                    <h3>weDecide Online Voting</h3>
+                    <p>A secure and user-friendly online voting system designed to facilitate democratic participation in elections</p>
+                    <p><a href="https://github.com/ElvissRukundo/Voting-System" class="view_project"
+                            target="_blank">View Project</a></p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/projects/okido/landing_page.png " alt="Project 2" />
+                <div class="project-info">
+                    <h3>Project Title 2</h3>
                     <p>A brief description of the project.</p>
                 </div>
             </div>
             <div class="project">
-                <img src="project2.jpg" alt="Project 2" />
+                <img src="img/projects/okido/landing_page.png " alt="Project 2" />
+                <div class="project-info">
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of the project.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/projects/okido/landing_page.png " alt="Project 2" />
                 <div class="project-info">
                     <h3>Project Title 2</h3>
                     <p>A brief description of the project.</p>
