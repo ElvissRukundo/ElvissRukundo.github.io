@@ -22,6 +22,10 @@
         }
 
         header {
+            width: 100%;
+            background-color: #000;
+            position: fixed;
+            top: 0;
             padding: 10px 20px;
             text-align: center;
         }
@@ -33,7 +37,6 @@
         nav {
             margin-top: 10px;
             border: none;
-            border-bottom: #fff 1px solid;
         }
 
         .nav-links {
@@ -100,6 +103,10 @@
             transition: background 0.3s;
         }
 
+        .project-info {
+            padding: 0 50px;
+        }
+
         .project-btn:hover {
             background-color: #333;
             color: #fff;
@@ -142,6 +149,11 @@
             font-size: 3rem;
         }
 
+        .project {
+            border: 1px #333 solid;
+            border-radius: 3px;
+        }
+
         .project img {
             width: 100%;
             transition: transform 0.3s;
@@ -170,7 +182,6 @@
         }
 
         #contact {
-            padding: 20px;
             text-align: center;
         }
 
@@ -337,7 +348,7 @@
         <h2>LANGUAGES</h2>
         <div class="languages-icons">
             <div class="language">
-                <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1" />
+                <i class="fab fa-html"></i>
                 <p>HTML</p>
             </div>
             <div class="language">
@@ -375,30 +386,29 @@
                 <img src="img/projects/vote/landing_page.png" alt="Project 1" />
                 <div class="project-info">
                     <h3>weDecide Online Voting</h3>
-                    <p>A secure and user-friendly online voting system designed to facilitate democratic participation in elections</p>
-                    <p><a href="https://github.com/ElvissRukundo/Voting-System" class="view_project"
-                            target="_blank">View Project</a></p>
+                    <p>
+                        A secure and user-friendly online voting system designed to
+                        facilitate democratic participation in elections. This was a project built from scratch all the coding, both front end and backen.
+                    </p>
+                    <p>
+                        <a href="https://github.com/ElvissRukundo/Voting-System" class="view_project"
+                            target="_blank">View Project</a>
+                    </p>
                 </div>
             </div>
             <div class="project">
                 <img src="img/projects/okido/landing_page.png " alt="Project 2" />
                 <div class="project-info">
-                    <h3>Project Title 2</h3>
-                    <p>A brief description of the project.</p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="img/projects/okido/landing_page.png " alt="Project 2" />
-                <div class="project-info">
-                    <h3>Project Title 2</h3>
-                    <p>A brief description of the project.</p>
-                </div>
-            </div>
-            <div class="project">
-                <img src="img/projects/okido/landing_page.png " alt="Project 2" />
-                <div class="project-info">
-                    <h3>Project Title 2</h3>
-                    <p>A brief description of the project.</p>
+                    <h3>Tourism Website</h3>
+                    <p>
+                        A tourism website developed for a tourism company Okido Tours And
+                        Travel Limited
+                        This was mainly a backend project for me, my contribution to the UI was minor. Did the database integration using php, mysql
+                    </p>
+                    <p>
+                        <a href="https://www.okidotours.com" class="view_project"
+                            target="_blank">View Project</a>
+                    </p>
                 </div>
             </div>
         </div>
